@@ -3,6 +3,13 @@
 All notable changes to the dataset are documented here. The project uses
 semantic versioning for its public schema and curated catalogue.
 
+## [Unreleased]
+
+### Fixed
+
+- Route the browser preview to rendered GitHub Pages documentation instead of
+  GitHub Markdown source paths.
+
 ## [1.0.0] - 2026-08-25
 
 ### Added

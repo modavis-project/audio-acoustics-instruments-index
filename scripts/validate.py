@@ -353,6 +353,21 @@ def validate_preview(validator: Validator, records: list[dict[str, Any]]) -> Non
         str(len(records)) in text and expected_status in text,
         "HTML preview lacks catalogue statistics or release status",
     )
+    pages_url = project.get("pages_url", "").rstrip("/")
+    validator.check(
+        pages_url.startswith("https://"),
+        "project metadata lacks an HTTPS GitHub Pages URL",
+    )
+    for target in (
+        f'{pages_url}/',
+        f'{pages_url}/knowledge/',
+        f'{pages_url}/docs/querying.html',
+    ):
+        validator.check(f'href="{target}"' in text, f"HTML preview lacks Pages link: {target}")
+    validator.check(
+        not any(target.endswith(".md") for target in re.findall(r'href="([^"]+)"', text)),
+        "HTML preview contains a Markdown source link instead of a rendered Pages route",
+    )
     for target in re.findall(r'href="([^"]+)"', text):
         if target.startswith(("#", "http://", "https://", "mailto:")):
             continue

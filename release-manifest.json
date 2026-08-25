@@ -20,8 +20,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9310,
-      "sha256": "b6e9691b984981942d701a8fa4907f8a0fc0733a6a3310a38329703eddc25308"
+      "bytes": 9422,
+      "sha256": "7cb3370f83beca943cb16ace7c0dd9b65038029955bbcb7323efeeb93700a3a1"
     },
     {
       "path": "assets/category-overview.svg",
@@ -106,12 +106,12 @@
     {
       "path": "ro-crate-metadata.json",
       "bytes": 7478,
-      "sha256": "15d56c4689352161eea7479e4e3d0614cfd86f1db042c74f4377b6f2057afbd4"
+      "sha256": "bbdd34ef787dced5364be1365bc85afa44f12b7187451bb3223d7274360d39c4"
     },
     {
       "path": "ro-crate-preview.html",
-      "bytes": 7981,
-      "sha256": "52e994f126a70e993a51e5e4ac81a0e3560b17a37e5f2182ddeb843a99a3d061"
+      "bytes": 9130,
+      "sha256": "9d52c4597b813aab5a926ce261d12984764dc27a060df9537071e632e20b8c9a"
     },
     {
       "path": "schema/github-snapshot.schema.json",

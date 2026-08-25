@@ -676,8 +676,9 @@ def build_preview(
 ) -> None:
     counts = Counter(item["primary_category"] for item in records)
     scope_counts = Counter(item["scope_status"] for item in records)
+    pages_url = project["pages_url"].rstrip("/")
     category_cards = "\n".join(
-        f"""<li><a href="knowledge/repositories/{escape(item["id"])}/index.md"><span>{escape(item["label_en"])}</span><strong>{counts[item["id"]]}</strong></a></li>"""
+        f"""<li><a href="{escape(pages_url)}/knowledge/repositories/{escape(item["id"])}/"><span>{escape(item["label_en"])}</span><strong>{counts[item["id"]]}</strong></a></li>"""
         for item in sorted(categories, key=lambda value: value["label_en"].casefold())
     )
     release_status = (
@@ -722,8 +723,8 @@ def build_preview(
     <h1>{escape(project["title"])}</h1>
     <p class="lede">A curated and versioned map of source-code repositories across acoustics, audio, musical instruments, organology, synthesis, spatial sound, and related research fields.</p>
     <nav class="actions" aria-label="Primary resources">
-      <a class="button primary" href="knowledge/index.md">Browse the knowledge bundle</a>
-      <a class="button" href="README.md">Read the documentation</a>
+      <a class="button primary" href="{escape(pages_url)}/knowledge/">Browse the knowledge bundle</a>
+      <a class="button" href="{escape(pages_url)}/">Read the documentation</a>
       <a class="button" href="exports/catalogue.sqlite">Get SQLite</a>
     </nav>
   </header>
@@ -737,9 +738,9 @@ def build_preview(
 
   <h2>Choose a representation</h2>
   <section class="formats">
-    <article class="card"><h3>For reading</h3><p>Progressive Markdown indexes and one compact, typed page per repository.</p><a href="knowledge/index.md">OKF 0.2 bundle →</a></article>
+    <article class="card"><h3>For reading</h3><p>Progressive Markdown indexes and one compact, typed page per repository.</p><a href="{escape(pages_url)}/knowledge/">OKF 0.2 bundle →</a></article>
     <article class="card"><h3>For analysis</h3><p>Portable tabular and structured exports for scripts, notebooks, and spreadsheets.</p><a href="exports/repositories.csv">CSV</a> · <a href="exports/repositories.json">JSON</a></article>
-    <article class="card"><h3>For querying</h3><p>A normalized SQLite database with an FTS5 full-text search index.</p><a href="docs/querying.md">Query examples →</a></article>
+    <article class="card"><h3>For querying</h3><p>A normalized SQLite database with an FTS5 full-text search index.</p><a href="{escape(pages_url)}/docs/querying.html">Query examples →</a></article>
     <article class="card"><h3>For agents</h3><p>A compact discovery entry point plus typed and linked knowledge documents.</p><a href="llms.txt">llms.txt →</a></article>
     <article class="card"><h3>For interchange</h3><p>A validated Frictionless table package with explicit field constraints.</p><a href="datapackage.json">Data Package →</a></article>
     <article class="card"><h3>For preservation</h3><p>RO-Crate 1.3 research-object metadata and deterministic release checksums.</p><a href="ro-crate-metadata.json">RO-Crate →</a></article>

@@ -22,7 +22,7 @@ This curated and versioned research dataset is part of the PhD thesis project **
 | I want to… | Start with |
 |---|---|
 | Browse repositories by research subject | [`knowledge/index.md`](knowledge/index.md), the progressive OKF 0.2 catalogue |
-| Preview the release in a browser | [`ro-crate-preview.html`](ro-crate-preview.html), a standalone visual overview |
+| Preview the release in a browser | [Rendered catalogue preview](https://modavis-project.github.io/audio-acoustics-instruments-index/ro-crate-preview.html) |
 | Search, filter, or count records | [`exports/catalogue.sqlite`](exports/catalogue.sqlite) and the [query guide](docs/querying.md) |
 | Analyse the dataset in code or a spreadsheet | [JSONL](data/repositories.jsonl), [JSON](exports/repositories.json), or [CSV](exports/repositories.csv) |
 | Give the catalogue to an LLM or agent | [`llms.txt`](llms.txt), then the linked OKF 0.2 knowledge bundle |
@@ -60,7 +60,7 @@ The same catalogue is supplied in complementary representations:
 | Resource | Best suited to |
 |---|---|
 | [`knowledge/index.md`](knowledge/index.md) | Human and LLM browsing through an Open Knowledge Format (OKF) 0.2 hierarchy |
-| [`ro-crate-preview.html`](ro-crate-preview.html) | A self-contained visual release preview |
+| [Rendered catalogue preview](https://modavis-project.github.io/audio-acoustics-instruments-index/ro-crate-preview.html) | A self-contained visual release preview |
 | [`data/repositories.jsonl`](data/repositories.jsonl) | Canonical curated records, one JSON object per line |
 | [`exports/repositories.csv`](exports/repositories.csv) | Spreadsheet and tabular analysis |
 | [`exports/repositories.json`](exports/repositories.json) | Complete JSON-array processing |
