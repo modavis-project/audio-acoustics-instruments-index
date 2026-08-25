@@ -1,0 +1,28 @@
+Audio, Acoustics, and Musical Instruments Repository Index
+Copyright (c) 2026 Dominik Ukolov
+
+DATA, TAXONOMY, KNOWLEDGE DOCUMENTS, AND DOCUMENTATION
+
+Unless a file states otherwise, the curated dataset in data/, the controlled
+vocabularies, generated knowledge documents, generated data exports, and
+documentation are licensed under the Creative Commons Attribution 4.0
+International License (SPDX: CC-BY-4.0).
+
+License deed and legal code:
+https://creativecommons.org/licenses/by/4.0/
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribution should identify Dominik Ukolov, the dataset title, the version,
+and the version-specific DOI when available.
+
+SOFTWARE
+
+Python, shell, workflow, and other build or validation code is licensed
+under the MIT License in LICENSES/MIT.txt.
+
+THIRD-PARTY MATERIAL
+
+This catalogue describes and links to third-party repositories. Its licences
+do not apply to those repositories or their contents. Repository names,
+public metadata, and links remain subject to the rights and terms applicable
+at their respective sources. Inclusion does not imply endorsement.

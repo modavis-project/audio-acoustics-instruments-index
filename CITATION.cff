@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the version-specific Zenodo record."
+type: dataset
+title: "Audio, Acoustics, and Musical Instruments Repository Index"
+abstract: >-
+  A curated, versioned index of source-code repositories related to
+  acoustics, audio, musical instruments, organology, virtual instruments,
+  sound synthesis, spatial audio, psychoacoustics, and adjacent fields.
+authors:
+  - given-names: Dominik
+    family-names: Ukolov
+    affiliation: "Digital Humanities (Image/Object), Friedrich-Schiller-University Jena"
+version: 1.0.0
+doi: 10.5281/zenodo.22099291
+date-released: 2026-08-25
+repository-code: "https://github.com/modavis-project/audio-acoustics-instruments-index"
+url: "https://github.com/modavis-project/audio-acoustics-instruments-index"
+license: CC-BY-4.0
+keywords:
+  - acoustics
+  - audio
+  - musical instruments
+  - organology
+  - sound synthesis
+  - spatial audio
+  - virtual instruments
+  - open research data

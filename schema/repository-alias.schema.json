@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/modavis-project/audio-acoustics-instruments-index/raw/main/schema/repository-alias.schema.json",
+  "title": "Former repository name alias",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["catalogue_id", "alias_full_name", "alias_url", "current_full_name"],
+  "properties": {
+    "catalogue_id": {"type": "string", "pattern": "^GHIAO-[0-9]{4}$"},
+    "alias_full_name": {"type": "string", "pattern": "^[^/]+/[^/]+$"},
+    "alias_url": {"type": "string", "format": "uri", "pattern": "^https://github\\.com/"},
+    "current_full_name": {"type": "string", "pattern": "^[^/]+/[^/]+$"}
+  }
+}

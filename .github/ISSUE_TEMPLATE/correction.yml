@@ -1,0 +1,31 @@
+name: Report a correction
+description: Report an inaccurate, unavailable, renamed, or misclassified record.
+title: "[Correction]: "
+body:
+  - type: input
+    id: catalogue_id
+    attributes:
+      label: Catalogue identifier
+      placeholder: GHIAO-0001
+    validations:
+      required: true
+  - type: dropdown
+    id: correction_type
+    attributes:
+      label: Correction type
+      options:
+        - Repository renamed or transferred
+        - Repository unavailable
+        - Duplicate or successor relationship
+        - Incorrect description
+        - Incorrect category or scope
+        - Other factual correction
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Proposed correction and evidence
+      description: Explain what should change and provide public links that support the correction.
+    validations:
+      required: true

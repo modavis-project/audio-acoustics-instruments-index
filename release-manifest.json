@@ -1,0 +1,132 @@
+{
+  "title": "Audio, Acoustics, and Musical Instruments Repository Index",
+  "version": "1.0.0",
+  "snapshot_date": "2026-08-22",
+  "prepared_date": "2026-08-25",
+  "release_date": "2026-08-25",
+  "doi": "10.5281/zenodo.22099291",
+  "manifest_scope": "Core research payload; the release archive has a separate whole-archive checksum.",
+  "record_count": 403,
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "bytes": 971,
+      "sha256": "57f3de29c7479b9b0418f698261423465f01e69632aadf97970a9a5c083e73f5"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1104,
+      "sha256": "e922586e670db4752cfca429bc2c8e2d7faf3abb90da043dbc4d4e80641b7b28"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9310,
+      "sha256": "b6e9691b984981942d701a8fa4907f8a0fc0733a6a3310a38329703eddc25308"
+    },
+    {
+      "path": "assets/category-overview.svg",
+      "bytes": 5125,
+      "sha256": "410b63e30a25dc84de0a39df49df4ce2e2d8ce4b2933cdc68b136aa2cd447dc2"
+    },
+    {
+      "path": "data/github-snapshot.jsonl",
+      "bytes": 341575,
+      "sha256": "cc33717d167494d16eebbcce67fdeee17543c5cd63ddcd101f9e80133abcc427"
+    },
+    {
+      "path": "data/repositories.jsonl",
+      "bytes": 169792,
+      "sha256": "51bea9cfee598d56e8498fb3ab83ca1441d1bb64247e76bd3148a67762bbfb0a"
+    },
+    {
+      "path": "data/repository-aliases.jsonl",
+      "bytes": 865,
+      "sha256": "175f2cb9bcf0d685d3e69044895293e8273df9912cc93ae4b8b83abc9df22fd2"
+    },
+    {
+      "path": "data/vocabularies/categories.json",
+      "bytes": 5720,
+      "sha256": "665a8c702fa29f906ddc7963a1975a2aab55a17945430c0987dda404f77ee494"
+    },
+    {
+      "path": "data/vocabularies/scope-statuses.json",
+      "bytes": 603,
+      "sha256": "c287812a7758a67b5b8baca2c49e2d2b94c8c664381a9ef1d1e18f6d4df56204"
+    },
+    {
+      "path": "datapackage.json",
+      "bytes": 4627,
+      "sha256": "60acfbf5a8e8a4d49cd9beca19ea7ae4b7fa8734fa421de1d612da8a39240d5d"
+    },
+    {
+      "path": "docs/reuse.md",
+      "bytes": 2286,
+      "sha256": "19e24b7727b6b434db12f6d45689d60ca843d45af879c625cd3329d282bfeffd"
+    },
+    {
+      "path": "examples/query.jq",
+      "bytes": 194,
+      "sha256": "808be436c851d49e95085a5da0ade4007c30c8672ee3fd0850c802b51177100f"
+    },
+    {
+      "path": "examples/query.py",
+      "bytes": 661,
+      "sha256": "c4f2be7f352f92f8b574bbcfdd3a8b1bd686431ac89d4c53fd56f1be8f84c6b0"
+    },
+    {
+      "path": "examples/query.sql",
+      "bytes": 270,
+      "sha256": "42e975bc9e64dd2781331c965a97c135e45b7988c2b643b351f4e94db5541920"
+    },
+    {
+      "path": "exports/catalogue.sqlite",
+      "bytes": 790528,
+      "sha256": "a65afa92b00a789687f19172d354982ca88fa3b7cda4a73d65acf2756bbd551c"
+    },
+    {
+      "path": "exports/repositories.csv",
+      "bytes": 276679,
+      "sha256": "57156eeae9dc315fb3540ec5458ddec538da1efae6b673abcb525e5677b94f92"
+    },
+    {
+      "path": "exports/repositories.json",
+      "bytes": 605962,
+      "sha256": "a1cf10254e9117b51eebef75f453e1ccee860b1f435d4d67faff2d649dad0bce"
+    },
+    {
+      "path": "knowledge/index.md",
+      "bytes": 2114,
+      "sha256": "e953a034d07f0748f095bee254a3a7283bfd2e4aca5fb26b839ccae8e761f9ce"
+    },
+    {
+      "path": "llms.txt",
+      "bytes": 2417,
+      "sha256": "3d8317f6b8550178977d2c7e2fb934e35fb50aa608e73352fdd774901d7c9136"
+    },
+    {
+      "path": "ro-crate-metadata.json",
+      "bytes": 7478,
+      "sha256": "15d56c4689352161eea7479e4e3d0614cfd86f1db042c74f4377b6f2057afbd4"
+    },
+    {
+      "path": "ro-crate-preview.html",
+      "bytes": 7981,
+      "sha256": "52e994f126a70e993a51e5e4ac81a0e3560b17a37e5f2182ddeb843a99a3d061"
+    },
+    {
+      "path": "schema/github-snapshot.schema.json",
+      "bytes": 2144,
+      "sha256": "591da55f6569506d953db6165733fa272095120796511bb8318670eeed794b55"
+    },
+    {
+      "path": "schema/repository-alias.schema.json",
+      "bytes": 699,
+      "sha256": "25d3927419a8d4d91d2d74ee994720ed31a5c1f217010fbacd8cc587a127eb98"
+    },
+    {
+      "path": "schema/repository.schema.json",
+      "bytes": 1287,
+      "sha256": "a118db0203d7206714d4e94ca4f3059d0c70160c1d4078f65d0120430033d5be"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Repository subject categories",
+  "version": "1.0.0",
+  "concepts": [
+    {
+      "id": "aero_underwater_and_ultrasound_acoustics",
+      "label_en": "Aeroacoustics, underwater acoustics, and ultrasound",
+      "label_de": "Aero-, Unterwasser- und Ultraschallakustik",
+      "broader": "acoustics",
+      "definition_en": "Aeroacoustic, hydroacoustic, sonar, ultrasonic, or related wave-propagation research and tools."
+    },
+    {
+      "id": "environmental_building_and_transport_acoustics",
+      "label_en": "Environmental, building, and transport acoustics",
+      "label_de": "Umwelt-, Gebäude- und Verkehrsakustik",
+      "broader": "acoustics",
+      "definition_en": "Noise, sound transmission, acoustic comfort, and assessment in buildings, environments, or transport systems."
+    },
+    {
+      "id": "general_acoustics_and_measurement",
+      "label_en": "General acoustics and measurement",
+      "label_de": "Allgemeine Akustik und Messung",
+      "broader": "acoustics",
+      "definition_en": "General acoustic analysis, instrumentation, calibration, measurement, and signal-characterization resources."
+    },
+    {
+      "id": "instrument_design_and_hardware",
+      "label_en": "Instrument design, hardware, and augmented instruments",
+      "label_de": "Instrumentendesign, Hardware und augmentierte Instrumente",
+      "broader": "musical_instruments",
+      "definition_en": "Construction, electronics, interfaces, fabrication, controllers, and augmentation of musical instruments."
+    },
+    {
+      "id": "instrument_recognition_and_datasets",
+      "label_en": "Instrument recognition, transcription, and datasets",
+      "label_de": "Instrumentenerkennung, Transkription und Datensätze",
+      "broader": "musical_instruments",
+      "definition_en": "Instrument-centred datasets, recognition, transcription, alignment, classification, and learned models."
+    },
+    {
+      "id": "meta_resources",
+      "label_en": "Curated lists and meta-resources",
+      "label_de": "Kuratierte Listen und Meta-Ressourcen",
+      "broader": "cross_cutting",
+      "definition_en": "Indexes, catalogues, guides, and other curated resources that primarily point to relevant projects or knowledge."
+    },
+    {
+      "id": "musical_instrument_acoustics",
+      "label_en": "Musical instrument acoustics",
+      "label_de": "Musikinstrumentenakustik",
+      "broader": "musical_instruments",
+      "definition_en": "Research and simulation centred on sound generation, vibration, radiation, or transmission in musical instruments."
+    },
+    {
+      "id": "organology_and_instrument_knowledge",
+      "label_en": "Organology and instrument knowledge",
+      "label_de": "Organologie und Instrumentenwissen",
+      "broader": "musical_instruments",
+      "definition_en": "Instrument classification, ontologies, collections, terminology, cultural knowledge, and structured instrument data."
+    },
+    {
+      "id": "physical_and_computational_acoustics",
+      "label_en": "Physical and computational acoustics",
+      "label_de": "Physikalische und numerische Akustik",
+      "broader": "acoustics",
+      "definition_en": "General wave physics, numerical solvers, boundary and finite-element methods, and computational acoustic models."
+    },
+    {
+      "id": "psychoacoustics_and_sound_quality",
+      "label_en": "Psychoacoustics and sound quality",
+      "label_de": "Psychoakustik und Sound Quality",
+      "broader": "acoustics",
+      "definition_en": "Auditory perception, listening experiments, perceptual metrics, sound quality, and auditory modelling."
+    },
+    {
+      "id": "room_and_virtual_acoustics",
+      "label_en": "Room and virtual acoustics",
+      "label_de": "Raum- und virtuelle Akustik",
+      "broader": "acoustics",
+      "definition_en": "Room simulation, room impulse responses, reverberation, acoustic environments, and virtual-acoustics systems."
+    },
+    {
+      "id": "soundscape_and_bioacoustics",
+      "label_en": "Soundscape, bioacoustics, and ecoacoustics",
+      "label_de": "Soundscape, Bio- und Ökoakustik",
+      "broader": "acoustics",
+      "definition_en": "Environmental soundscapes, biological sounds, ecological acoustic monitoring, and related analysis."
+    },
+    {
+      "id": "spatial_audio_and_auralization",
+      "label_en": "Spatial audio and auralization",
+      "label_de": "Räumliches Audio und Auralisierung",
+      "broader": "audio",
+      "definition_en": "Binaural, ambisonic, multichannel, localization, spatial rendering, and auralization technologies."
+    },
+    {
+      "id": "vibroacoustics_and_modal_analysis",
+      "label_en": "Vibroacoustics and modal analysis",
+      "label_de": "Vibroakustik und Modalanalyse",
+      "broader": "acoustics",
+      "definition_en": "Coupled structural-acoustic vibration, experimental or numerical modal analysis, and related tooling."
+    },
+    {
+      "id": "virtual_instruments_and_synthesis",
+      "label_en": "Virtual instruments and sound synthesis",
+      "label_de": "Virtuelle Instrumente und Synthese",
+      "broader": "audio",
+      "definition_en": "Playable software instruments, sound-synthesis systems, physical modelling, instrument emulation, and synthesis engines."
+    }
+  ],
+  "top_concepts": [
+    {"id": "acoustics", "label_en": "Acoustics", "label_de": "Akustik"},
+    {"id": "audio", "label_en": "Audio and music computing", "label_de": "Audio und Music Computing"},
+    {"id": "musical_instruments", "label_en": "Musical instruments", "label_de": "Musikinstrumente"},
+    {"id": "cross_cutting", "label_en": "Cross-cutting resources", "label_de": "Querschnittsressourcen"}
+  ]
+}

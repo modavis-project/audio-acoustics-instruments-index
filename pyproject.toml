@@ -1,0 +1,18 @@
+[project]
+name = "audio-acoustics-instruments-index-tools"
+version = "1.0.0"
+description = "Build and validation tools for the Audio, Acoustics, and Musical Instruments Repository Index"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Dominik Ukolov"}]
+dependencies = []
+
+[project.optional-dependencies]
+validation = [
+  "jsonschema>=4.23,<5",
+  "PyYAML>=6.0,<7",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

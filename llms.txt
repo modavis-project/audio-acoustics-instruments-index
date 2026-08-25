@@ -1,0 +1,29 @@
+# Audio, Acoustics, and Musical Instruments Repository Index
+
+> A curated MODAVIS PhD-project dataset of 403 repositories related to acoustics, audio, musical instruments, organology, synthesis, and adjacent fields.
+
+Version: 1.0.0
+Catalogue snapshot: 2026-08-22
+Version DOI: https://doi.org/10.5281/zenodo.22099291
+Creator: Dominik Ukolov — Digital Humanities (Image/Object), Friedrich-Schiller-University Jena
+Licence: CC BY 4.0 for data and documentation; MIT for build code.
+
+## Start here
+
+- [README](https://github.com/modavis-project/audio-acoustics-instruments-index/blob/main/README.md): Scope, formats, build, citation, and licence.
+- [Knowledge bundle](https://github.com/modavis-project/audio-acoustics-instruments-index/blob/main/knowledge/index.md): Progressive OKF 0.2 browser.
+- [Canonical JSONL](https://github.com/modavis-project/audio-acoustics-instruments-index/blob/main/data/repositories.jsonl): Authoritative curated records.
+- [Data dictionary](https://github.com/modavis-project/audio-acoustics-instruments-index/blob/main/docs/data-dictionary.md): Field semantics.
+- [Classification guide](https://github.com/modavis-project/audio-acoustics-instruments-index/blob/main/docs/classification-guide.md): Subject and scope rules.
+- [Query guide](https://github.com/modavis-project/audio-acoustics-instruments-index/blob/main/docs/querying.md): SQLite, full-text, jq, and Python examples.
+- [Citation metadata](https://github.com/modavis-project/audio-acoustics-instruments-index/blob/main/CITATION.cff): Dataset citation.
+
+## Machine-readable metadata
+
+- [Frictionless Data Package](https://github.com/modavis-project/audio-acoustics-instruments-index/blob/main/datapackage.json)
+- [RO-Crate 1.3 metadata](https://github.com/modavis-project/audio-acoustics-instruments-index/blob/main/ro-crate-metadata.json)
+- [Repository JSON Schema](https://github.com/modavis-project/audio-acoustics-instruments-index/blob/main/schema/repository.schema.json)
+- [GitHub snapshot JSON Schema](https://github.com/modavis-project/audio-acoustics-instruments-index/blob/main/schema/github-snapshot.schema.json)
+- [Subject vocabulary](https://github.com/modavis-project/audio-acoustics-instruments-index/blob/main/data/vocabularies/categories.json)
+
+Curated records and dated GitHub metadata are separate. Classification expresses scope, not quality or endorsement. Listed repositories retain their own licences.

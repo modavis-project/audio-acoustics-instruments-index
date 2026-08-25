@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Catalogue scope statuses",
+  "concepts": [
+    {
+      "id": "core",
+      "label_en": "Core",
+      "label_de": "Kernbereich",
+      "definition_en": "The repository has a direct primary relationship to acoustics, audio, or musical instruments within the catalogue policy."
+    },
+    {
+      "id": "adjacent",
+      "label_en": "Adjacent",
+      "label_de": "Angrenzend",
+      "definition_en": "The repository has a substantive use or relationship to the core domains but a broader or different primary purpose."
+    }
+  ]
+}

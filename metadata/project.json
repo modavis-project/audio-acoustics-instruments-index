@@ -1,0 +1,29 @@
+{
+  "title": "Audio, Acoustics, and Musical Instruments Repository Index",
+  "short_title": "Audio, Acoustics, and Instruments Index",
+  "version": "1.0.0",
+  "snapshot_date": "2026-08-22",
+  "prepared_date": "2026-08-25",
+  "release_date": "2026-08-25",
+  "doi": "10.5281/zenodo.22099291",
+  "repository_url": "https://github.com/modavis-project/audio-acoustics-instruments-index",
+  "project": "MODAVIS",
+  "resource_type": "Dataset",
+  "license": "CC-BY-4.0",
+  "creator": {
+    "given_names": "Dominik",
+    "family_names": "Ukolov",
+    "name": "Dominik Ukolov",
+    "affiliation": "Digital Humanities (Image/Object), Friedrich-Schiller-University Jena"
+  },
+  "keywords": [
+    "acoustics",
+    "audio",
+    "musical instruments",
+    "organology",
+    "sound synthesis",
+    "spatial audio",
+    "virtual instruments",
+    "open research data"
+  ]
+}

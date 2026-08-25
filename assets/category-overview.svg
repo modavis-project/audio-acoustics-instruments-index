@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="680" viewBox="0 0 1000 680" role="img" aria-labelledby="title description">
+  <title id="title">Repositories by subject category</title>
+  <desc id="description">Horizontal bar chart showing the distribution of 403 repositories across 15 subject categories.</desc>
+  <style>
+    .background { fill: #f7f4ed; }
+    .heading { fill: #172126; font: 700 25px ui-sans-serif, system-ui, sans-serif; }
+    .subheading { fill: #5b676d; font: 15px ui-sans-serif, system-ui, sans-serif; }
+    .label { fill: #263238; font: 14px ui-sans-serif, system-ui, sans-serif; }
+    .bar { fill: #0f6674; }
+    .count { fill: #172126; font: 700 14px ui-monospace, monospace; }
+  </style>
+  <rect class="background" width="100%" height="100%" rx="10"/>
+  <text class="heading" x="34" y="42">Repositories by subject category</text>
+  <text class="subheading" x="34" y="70">403 records · 15 documented categories · catalogue snapshot 2026-08-22</text>
+  <text class="label" x="34" y="138">Virtual instruments and sound synthesis</text>
+  <rect class="bar" x="455" y="122" width="430" height="22" rx="4"><title>Virtual instruments and sound synthesis: 75 repositories</title></rect>
+  <text class="count" x="897" y="138">75</text>
+  <text class="label" x="34" y="172">Room and virtual acoustics</text>
+  <rect class="bar" x="455" y="156" width="361" height="22" rx="4"><title>Room and virtual acoustics: 63 repositories</title></rect>
+  <text class="count" x="828" y="172">63</text>
+  <text class="label" x="34" y="206">Instrument recognition, transcription, and datasets</text>
+  <rect class="bar" x="455" y="190" width="327" height="22" rx="4"><title>Instrument recognition, transcription, and datasets: 57 repositories</title></rect>
+  <text class="count" x="794" y="206">57</text>
+  <text class="label" x="34" y="240">General acoustics and measurement</text>
+  <rect class="bar" x="455" y="224" width="212" height="22" rx="4"><title>General acoustics and measurement: 37 repositories</title></rect>
+  <text class="count" x="679" y="240">37</text>
+  <text class="label" x="34" y="274">Spatial audio and auralization</text>
+  <rect class="bar" x="455" y="258" width="212" height="22" rx="4"><title>Spatial audio and auralization: 37 repositories</title></rect>
+  <text class="count" x="679" y="274">37</text>
+  <text class="label" x="34" y="308">Aeroacoustics, underwater acoustics, and ultrasound</text>
+  <rect class="bar" x="455" y="292" width="126" height="22" rx="4"><title>Aeroacoustics, underwater acoustics, and ultrasound: 22 repositories</title></rect>
+  <text class="count" x="593" y="308">22</text>
+  <text class="label" x="34" y="342">Instrument design, hardware, and augmented instruments</text>
+  <rect class="bar" x="455" y="326" width="126" height="22" rx="4"><title>Instrument design, hardware, and augmented instruments: 22 repositories</title></rect>
+  <text class="count" x="593" y="342">22</text>
+  <text class="label" x="34" y="376">Psychoacoustics and sound quality</text>
+  <rect class="bar" x="455" y="360" width="115" height="22" rx="4"><title>Psychoacoustics and sound quality: 20 repositories</title></rect>
+  <text class="count" x="582" y="376">20</text>
+  <text class="label" x="34" y="410">Organology and instrument knowledge</text>
+  <rect class="bar" x="455" y="394" width="86" height="22" rx="4"><title>Organology and instrument knowledge: 15 repositories</title></rect>
+  <text class="count" x="553" y="410">15</text>
+  <text class="label" x="34" y="444">Physical and computational acoustics</text>
+  <rect class="bar" x="455" y="428" width="69" height="22" rx="4"><title>Physical and computational acoustics: 12 repositories</title></rect>
+  <text class="count" x="536" y="444">12</text>
+  <text class="label" x="34" y="478">Vibroacoustics and modal analysis</text>
+  <rect class="bar" x="455" y="462" width="63" height="22" rx="4"><title>Vibroacoustics and modal analysis: 11 repositories</title></rect>
+  <text class="count" x="530" y="478">11</text>
+  <text class="label" x="34" y="512">Curated lists and meta-resources</text>
+  <rect class="bar" x="455" y="496" width="52" height="22" rx="4"><title>Curated lists and meta-resources: 9 repositories</title></rect>
+  <text class="count" x="519" y="512">9</text>
+  <text class="label" x="34" y="546">Environmental, building, and transport acoustics</text>
+  <rect class="bar" x="455" y="530" width="46" height="22" rx="4"><title>Environmental, building, and transport acoustics: 8 repositories</title></rect>
+  <text class="count" x="513" y="546">8</text>
+  <text class="label" x="34" y="580">Musical instrument acoustics</text>
+  <rect class="bar" x="455" y="564" width="46" height="22" rx="4"><title>Musical instrument acoustics: 8 repositories</title></rect>
+  <text class="count" x="513" y="580">8</text>
+  <text class="label" x="34" y="614">Soundscape, bioacoustics, and ecoacoustics</text>
+  <rect class="bar" x="455" y="598" width="40" height="22" rx="4"><title>Soundscape, bioacoustics, and ecoacoustics: 7 repositories</title></rect>
+  <text class="count" x="507" y="614">7</text>
+</svg>

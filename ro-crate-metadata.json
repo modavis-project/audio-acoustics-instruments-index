@@ -1,0 +1,293 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.3/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.3"
+      },
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "Audio, Acoustics, and Musical Instruments Repository Index",
+      "description": "A curated, versioned index of source-code repositories related to acoustics, audio, musical instruments, organology, virtual instruments, and adjacent fields.",
+      "version": "1.0.0",
+      "dateCreated": "2026-08-22",
+      "datePublished": "2026-08-25",
+      "creativeWorkStatus": "Published",
+      "identifier": "10.5281/zenodo.22099291",
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": {
+        "@id": "#dominik-ukolov"
+      },
+      "creator": {
+        "@id": "#dominik-ukolov"
+      },
+      "publisher": {
+        "@id": "#fsu-jena-dh-image-object"
+      },
+      "isPartOf": {
+        "@id": "#modavis"
+      },
+      "mainEntity": {
+        "@id": "data/repositories.jsonl"
+      },
+      "keywords": [
+        "acoustics",
+        "audio",
+        "musical instruments",
+        "organology",
+        "sound synthesis",
+        "spatial audio",
+        "virtual instruments",
+        "open research data"
+      ],
+      "url": "https://github.com/modavis-project/audio-acoustics-instruments-index",
+      "hasPart": [
+        {
+          "@id": "README.md"
+        },
+        {
+          "@id": "docs/reuse.md"
+        },
+        {
+          "@id": "examples/query.sql"
+        },
+        {
+          "@id": "examples/query.py"
+        },
+        {
+          "@id": "examples/query.jq"
+        },
+        {
+          "@id": "assets/category-overview.svg"
+        },
+        {
+          "@id": "CITATION.cff"
+        },
+        {
+          "@id": "LICENSE"
+        },
+        {
+          "@id": "data/repositories.jsonl"
+        },
+        {
+          "@id": "data/github-snapshot.jsonl"
+        },
+        {
+          "@id": "data/repository-aliases.jsonl"
+        },
+        {
+          "@id": "data/vocabularies/categories.json"
+        },
+        {
+          "@id": "data/vocabularies/scope-statuses.json"
+        },
+        {
+          "@id": "schema/repository.schema.json"
+        },
+        {
+          "@id": "schema/github-snapshot.schema.json"
+        },
+        {
+          "@id": "schema/repository-alias.schema.json"
+        },
+        {
+          "@id": "exports/repositories.csv"
+        },
+        {
+          "@id": "exports/repositories.json"
+        },
+        {
+          "@id": "exports/catalogue.sqlite"
+        },
+        {
+          "@id": "knowledge/index.md"
+        },
+        {
+          "@id": "datapackage.json"
+        }
+      ]
+    },
+    {
+      "@id": "#dominik-ukolov",
+      "@type": "Person",
+      "name": "Dominik Ukolov",
+      "givenName": "Dominik",
+      "familyName": "Ukolov",
+      "affiliation": {
+        "@id": "#fsu-jena-dh-image-object"
+      }
+    },
+    {
+      "@id": "#fsu-jena-dh-image-object",
+      "@type": "Organization",
+      "name": "Digital Humanities (Image/Object), Friedrich-Schiller-University Jena"
+    },
+    {
+      "@id": "#modavis",
+      "@type": "ResearchProject",
+      "name": "MODAVIS",
+      "description": "PhD thesis project of which this repository index forms a part."
+    },
+    {
+      "@id": "https://creativecommons.org/licenses/by/4.0/",
+      "@type": "CreativeWork",
+      "name": "Creative Commons Attribution 4.0 International"
+    },
+    {
+      "@id": "README.md",
+      "@type": "File",
+      "name": "README.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "9310"
+    },
+    {
+      "@id": "docs/reuse.md",
+      "@type": "File",
+      "name": "reuse.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2286"
+    },
+    {
+      "@id": "examples/query.sql",
+      "@type": "File",
+      "name": "query.sql",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": "270"
+    },
+    {
+      "@id": "examples/query.py",
+      "@type": "File",
+      "name": "query.py",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": "661"
+    },
+    {
+      "@id": "examples/query.jq",
+      "@type": "File",
+      "name": "query.jq",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": "194"
+    },
+    {
+      "@id": "assets/category-overview.svg",
+      "@type": "File",
+      "name": "category-overview.svg",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": "5125"
+    },
+    {
+      "@id": "CITATION.cff",
+      "@type": "File",
+      "name": "CITATION.cff",
+      "encodingFormat": "text/yaml",
+      "contentSize": "971"
+    },
+    {
+      "@id": "LICENSE",
+      "@type": "File",
+      "name": "LICENSE",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": "1104"
+    },
+    {
+      "@id": "data/repositories.jsonl",
+      "@type": "File",
+      "name": "repositories.jsonl",
+      "encodingFormat": "application/x-ndjson",
+      "contentSize": "169792"
+    },
+    {
+      "@id": "data/github-snapshot.jsonl",
+      "@type": "File",
+      "name": "github-snapshot.jsonl",
+      "encodingFormat": "application/x-ndjson",
+      "contentSize": "341575"
+    },
+    {
+      "@id": "data/repository-aliases.jsonl",
+      "@type": "File",
+      "name": "repository-aliases.jsonl",
+      "encodingFormat": "application/x-ndjson",
+      "contentSize": "865"
+    },
+    {
+      "@id": "data/vocabularies/categories.json",
+      "@type": "File",
+      "name": "categories.json",
+      "encodingFormat": "application/json",
+      "contentSize": "5720"
+    },
+    {
+      "@id": "data/vocabularies/scope-statuses.json",
+      "@type": "File",
+      "name": "scope-statuses.json",
+      "encodingFormat": "application/json",
+      "contentSize": "603"
+    },
+    {
+      "@id": "schema/repository.schema.json",
+      "@type": "File",
+      "name": "repository.schema.json",
+      "encodingFormat": "application/json",
+      "contentSize": "1287"
+    },
+    {
+      "@id": "schema/github-snapshot.schema.json",
+      "@type": "File",
+      "name": "github-snapshot.schema.json",
+      "encodingFormat": "application/json",
+      "contentSize": "2144"
+    },
+    {
+      "@id": "schema/repository-alias.schema.json",
+      "@type": "File",
+      "name": "repository-alias.schema.json",
+      "encodingFormat": "application/json",
+      "contentSize": "699"
+    },
+    {
+      "@id": "exports/repositories.csv",
+      "@type": "File",
+      "name": "repositories.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": "276679"
+    },
+    {
+      "@id": "exports/repositories.json",
+      "@type": "File",
+      "name": "repositories.json",
+      "encodingFormat": "application/json",
+      "contentSize": "605962"
+    },
+    {
+      "@id": "exports/catalogue.sqlite",
+      "@type": "File",
+      "name": "catalogue.sqlite",
+      "encodingFormat": "application/vnd.sqlite3",
+      "contentSize": "790528"
+    },
+    {
+      "@id": "knowledge/index.md",
+      "@type": "File",
+      "name": "index.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "2114"
+    },
+    {
+      "@id": "datapackage.json",
+      "@type": "File",
+      "name": "datapackage.json",
+      "encodingFormat": "application/json",
+      "contentSize": "4627"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "profile": "data-package",
+  "name": "audio-acoustics-instruments-index",
+  "title": "Audio, Acoustics, and Musical Instruments Repository Index",
+  "description": "A curated index of repositories related to acoustics, audio, and musical instruments.",
+  "version": "1.0.0",
+  "id": "https://doi.org/10.5281/zenodo.22099291",
+  "homepage": "https://github.com/modavis-project/audio-acoustics-instruments-index",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Dominik Ukolov",
+      "role": "author",
+      "organization": "Digital Humanities (Image/Object), Friedrich-Schiller-University Jena"
+    }
+  ],
+  "resources": [
+    {
+      "profile": "tabular-data-resource",
+      "name": "repositories",
+      "path": "exports/repositories.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 276679,
+      "hash": "sha256:57156eeae9dc315fb3540ec5458ddec538da1efae6b673abcb525e5677b94f92",
+      "schema": {
+        "primaryKey": "catalogue_id",
+        "fields": [
+          {
+            "name": "catalogue_id",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "full_name",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "current_full_name",
+            "type": "string"
+          },
+          {
+            "name": "html_url",
+            "type": "string",
+            "format": "uri"
+          },
+          {
+            "name": "current_url",
+            "type": "string",
+            "format": "uri"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "name": "description_de",
+            "type": "string"
+          },
+          {
+            "name": "primary_category",
+            "type": "string"
+          },
+          {
+            "name": "category_label_en",
+            "type": "string"
+          },
+          {
+            "name": "category_label_de",
+            "type": "string"
+          },
+          {
+            "name": "scope_status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "core",
+                "adjacent"
+              ]
+            }
+          },
+          {
+            "name": "record_status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "active",
+                "merged"
+              ]
+            }
+          },
+          {
+            "name": "redirects_to",
+            "type": "string"
+          },
+          {
+            "name": "github_repository_id",
+            "type": "integer"
+          },
+          {
+            "name": "github_status",
+            "type": "string"
+          },
+          {
+            "name": "homepage_url",
+            "type": "string",
+            "format": "uri"
+          },
+          {
+            "name": "is_archived",
+            "type": "boolean"
+          },
+          {
+            "name": "is_disabled",
+            "type": "boolean"
+          },
+          {
+            "name": "is_fork",
+            "type": "boolean"
+          },
+          {
+            "name": "default_branch",
+            "type": "string"
+          },
+          {
+            "name": "primary_language",
+            "type": "string"
+          },
+          {
+            "name": "license_spdx",
+            "type": "string"
+          },
+          {
+            "name": "topics",
+            "type": "string"
+          },
+          {
+            "name": "stargazers_count",
+            "type": "integer"
+          },
+          {
+            "name": "forks_count",
+            "type": "integer"
+          },
+          {
+            "name": "open_issues_count",
+            "type": "integer"
+          },
+          {
+            "name": "created_at",
+            "type": "datetime"
+          },
+          {
+            "name": "pushed_at",
+            "type": "datetime"
+          },
+          {
+            "name": "updated_at",
+            "type": "datetime"
+          },
+          {
+            "name": "snapshot_date",
+            "type": "date"
+          },
+          {
+            "name": "github_metadata_captured_at",
+            "type": "datetime"
+          }
+        ]
+      }
+    }
+  ]
+}

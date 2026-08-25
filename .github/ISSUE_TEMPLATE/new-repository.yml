@@ -1,0 +1,60 @@
+name: Propose a repository
+description: Suggest a public repository for catalogue review.
+title: "[Repository]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for proposing a repository. Inclusion is based on the documented scope and requires curator review.
+  - type: input
+    id: repository_url
+    attributes:
+      label: Canonical repository URL
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Scope relevance
+      description: Explain the repository's direct relationship to acoustics, audio, musical instruments, organology, or virtual instruments.
+    validations:
+      required: true
+  - type: dropdown
+    id: scope_status
+    attributes:
+      label: Proposed scope status
+      options:
+        - core
+        - adjacent
+        - unsure
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Proposed primary category
+      description: Use an identifier from data/vocabularies/categories.json, or write "unsure".
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Concise summary
+      description: Describe what the repository provides in English or German without promotional claims.
+    validations:
+      required: true
+  - type: textarea
+    id: relationships
+    attributes:
+      label: Related catalogue records
+      description: Note known forks, predecessors, successors, or duplicate records, if any.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I checked the scope and classification documentation.
+          required: true
+        - label: I disclosed any relationship I have to the proposed project in the text above.
+          required: true

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/modavis-project/audio-acoustics-instruments-index/raw/main/schema/repository.schema.json",
+  "title": "Curated repository record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "catalogue_id",
+    "full_name",
+    "owner",
+    "name",
+    "html_url",
+    "description_de",
+    "primary_category",
+    "scope_status",
+    "snapshot_date",
+    "record_status",
+    "redirects_to"
+  ],
+  "properties": {
+    "catalogue_id": {"type": "string", "pattern": "^GHIAO-[0-9]{4}$"},
+    "full_name": {"type": "string", "pattern": "^[^/]+/[^/]+$"},
+    "owner": {"type": "string", "minLength": 1},
+    "name": {"type": "string", "minLength": 1},
+    "html_url": {"type": "string", "format": "uri", "pattern": "^https://github\\.com/"},
+    "description_de": {"type": "string", "minLength": 20, "maxLength": 500},
+    "primary_category": {"type": "string", "minLength": 1},
+    "scope_status": {"enum": ["core", "adjacent"]},
+    "snapshot_date": {"type": "string", "format": "date"},
+    "record_status": {"enum": ["active", "merged"]},
+    "redirects_to": {
+      "oneOf": [
+        {"type": "null"},
+        {"type": "string", "pattern": "^GHIAO-[0-9]{4}$"}
+      ]
+    }
+  }
+}
